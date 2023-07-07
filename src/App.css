@@ -1,0 +1,121 @@
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #343a40;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 0.25rem;
+  transition: all 0.15s ease-in-out;
+  border: none;
+}
+.btn-primary {
+  color: white;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+.btn-primary:hover {
+  color: white;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.btn-success {
+  color: white;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.btn-success:hover {
+  color: white;
+  background-color: #449d44;
+  border-color: #398439;
+}
+.btn-info {
+  color: white;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+.btn-info:hover {
+  color: white;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+.btn-warning {
+  color: white;
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+.btn-warning:hover {
+  color: white;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.btn-danger {
+  color: white;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+.btn-danger:hover {
+  color: white;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+.btn-outline {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.btn-outline:hover {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+/* alerts*/
+.alert{
+  animation: fadeOut .5s ease-in-out  ;
+}
+@keyframes fadeOut {
+  0%{
+    opacity: 1;
+    transform: scale(1);
+  }
+  100%{
+    opacity: 0;
+    transform: scale(0);
+  }
+  
+}
+.alert-primary {
+  color: white;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+.alert-success {
+  color: white;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.alert-info {
+  color: white;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+.alert-warning {
+  color: white;
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+.alert-danger {
+  color: white;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+.alert-outline {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
