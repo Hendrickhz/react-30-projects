@@ -13,7 +13,7 @@ const LockSlider = ({handleInput, sliderValue,width}) => {
     }
   return (
   
-      <input type="range" name="" className='slider my-5  mx-auto border-4' step={10} id="" style={sliderStyle} value={sliderValue}  onInput={handleInput} />
+    <input type="range" name="" className='slider my-5  mx-auto border-4' step={10} id="" style={sliderStyle} value={sliderValue}  onInput={handleInput} />
 
   )
 }
