@@ -4,7 +4,8 @@ import React from "react";
 // import Randomize from "./projects/02-randomize-color/Randomize";
 // import ESignature from './projects/E-signature-01/ESignature'
 import "./App.css";
-import HiddenSearchBar from "./projects/10-hidden-search-bar/HiddenSearchBar";
+import PopUpApp from "./projects/11-magic-pop/PopUpApp";
+// import HiddenSearchBar from "./projects/10-hidden-search-bar/HiddenSearchBar";
 // import SlideToGrow from "./projects/09-slide-to-grow/SlideToGrow";
 // import SlideToUnlock from "./projects/08-slider-app/SlideToUnlock";
 // import LightAndDark from "./projects/07-ligh-and-dark-mode/LightAndDark";
@@ -23,7 +24,8 @@ const App = () => {
       {/* <LightAndDark/> */}
       {/* <SlideToUnlock/> */}
       {/* <SlideToGrow/> */}
-      <HiddenSearchBar/>
+      {/* <HiddenSearchBar/> */}
+      <PopUpApp/>
     </div>
   );
 };
