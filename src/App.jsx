@@ -4,7 +4,8 @@ import React from "react";
 // import Randomize from "./projects/02-randomize-color/Randomize";
 // import ESignature from './projects/E-signature-01/ESignature'
 import "./App.css";
-import PopUpApp from "./projects/11-magic-pop/PopUpApp";
+import ProgressBar from "./projects/12-progress-bar/ProgressBar";
+// import PopUpApp from "./projects/11-magic-pop/PopUpApp";
 // import HiddenSearchBar from "./projects/10-hidden-search-bar/HiddenSearchBar";
 // import SlideToGrow from "./projects/09-slide-to-grow/SlideToGrow";
 // import SlideToUnlock from "./projects/08-slider-app/SlideToUnlock";
@@ -25,7 +26,8 @@ const App = () => {
       {/* <SlideToUnlock/> */}
       {/* <SlideToGrow/> */}
       {/* <HiddenSearchBar/> */}
-      <PopUpApp/>
+      {/* <PopUpApp/> */}
+      <ProgressBar/>
     </div>
   );
 };
