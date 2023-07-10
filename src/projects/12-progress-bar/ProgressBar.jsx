@@ -1,9 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
 import Title from "../../components/Title";
 import Progress from "../../components/Progress";
-
+import Button from "../../components/Button";
 const ProgressBar = () => {
   const [random, setRandom] = useState(8);
+  const [keepRandom, setKeepRandom] = useState(true);
   const [dataValues, setDataValues] = useState({
     ui: 43,
     ux: 50,
@@ -23,6 +24,7 @@ const ProgressBar = () => {
       data: dataValues.project,
     },
   ];
+
   const inputStyle = {
     border: " 1px solid lightgray",
     outline: "none",
@@ -32,14 +34,29 @@ const ProgressBar = () => {
   const uiRef = useRef(null);
   const uxRef = useRef(null);
   const progressRef = useRef(null);
+  
+  let randomIntervalId = useRef(null);
+
+  const continueRandomProgress = () => {
+    randomIntervalId.current = setInterval(() => {
+      setRandom(Math.floor(Math.random() * 100) + 1);
+    }, 3000);
+  };
+
   useEffect(() => {
     uiRef.current.focus();
 
-    setInterval(()=>
-        setRandom(Math.floor(Math.random()*100)+1)
-    ,5000)
+    if (keepRandom) {
+      continueRandomProgress();
+    } else {
+      clearInterval(randomIntervalId.current);
+    }
 
-  }, []);
+    // Cleanup the interval when the component unmounts
+    return () => {
+      clearInterval(randomIntervalId.current);
+    };
+  }, [keepRandom]);
   return (
     <div className=" container mx-auto mt-[10vh] text-center">
       <Title text={"Progress Bar"} />
@@ -92,7 +109,7 @@ const ProgressBar = () => {
         ))}
       </div>
       <div className="">
-        <Title text={"Random Progress Bar"}/>
+        <Title text={"Random Progress Bar"} />
         <Progress
           bgColor={
             random < 25
@@ -106,6 +123,10 @@ const ProgressBar = () => {
           progressData={random}
         />
       </div>
+      <Button
+        text={keepRandom ? "stop" : "continue"}
+        onClick={() => setKeepRandom(!keepRandom)}
+      />
     </div>
   );
 };
