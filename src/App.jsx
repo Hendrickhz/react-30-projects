@@ -4,8 +4,9 @@ import React from "react";
 // import Randomize from "./projects/02-randomize-color/Randomize";
 // import ESignature from './projects/E-signature-01/ESignature'
 import "./App.css";
+import ContactFilterApp from "./projects/14-contact-filler-app/ContactFilterApp";
 // import ProgressBar from "./projects/12-progress-bar/ProgressBar";
-import DialogBox from "./projects/13-dialog-box/DialogBox";
+// import DialogBox from "./projects/13-dialog-box/DialogBox";
 // import PopUpApp from "./projects/11-magic-pop/PopUpApp";
 // import HiddenSearchBar from "./projects/10-hidden-search-bar/HiddenSearchBar";
 // import SlideToGrow from "./projects/09-slide-to-grow/SlideToGrow";
@@ -29,7 +30,8 @@ const App = () => {
       {/* <HiddenSearchBar/> */}
       {/* <PopUpApp/> */}
       {/* <ProgressBar/> */}
-      <DialogBox/>
+      {/* <DialogBox/> */}
+      <ContactFilterApp />
     </div>
   );
 };
