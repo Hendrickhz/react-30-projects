@@ -20,7 +20,7 @@ const Alert = ({ text, color, showTime = 3000, disappear = true }) => {
     return (
       <div
         ref={divRef}
-        className={`  items-center  flex justify-between w-56 px-3 py-2 rounded mx-3 ${
+        className={`  items-center  flex justify-between mx-auto w-56 px-3 py-2 rounded  ${
           color ? color : "alert-primary"
         }`}
       >
