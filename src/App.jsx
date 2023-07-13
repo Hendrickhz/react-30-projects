@@ -4,7 +4,8 @@ import React from "react";
 // import Randomize from "./projects/02-randomize-color/Randomize";
 // import ESignature from './projects/E-signature-01/ESignature'
 import "./App.css";
-import RegForm from "./projects/15-register-form/RegForm";
+import NoteApp from "./projects/16-note-app/NoteApp";
+// import RegForm from "./projects/15-register-form/RegForm";
 // import ContactFilterApp from "./projects/14-contact-filler-app/ContactFilterApp";
 // import ProgressBar from "./projects/12-progress-bar/ProgressBar";
 // import DialogBox from "./projects/13-dialog-box/DialogBox";
@@ -33,7 +34,8 @@ const App = () => {
       {/* <ProgressBar/> */}
       {/* <DialogBox/> */}
       {/* <ContactFilterApp /> */}
-      <RegForm/>
+      {/* <RegForm/> */}
+      <NoteApp/>
     </div>
   );
 };
