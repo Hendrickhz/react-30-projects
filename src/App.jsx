@@ -4,8 +4,9 @@ import React from "react";
 // import Randomize from "./projects/02-randomize-color/Randomize";
 // import ESignature from './projects/E-signature-01/ESignature'
 import "./App.css";
+import CompoundInterestRateApp from "./projects/19-compound-interest-rate-calc/CompoundInterestRateApp";
 // import ResponsiveNav from "./projects/17-responsive-navbar/ResponsiveNav";
-import TextAnimationApp from "./projects/18-text-animation/TextAnimationApp";
+// import TextAnimationApp from "./projects/18-text-animation/TextAnimationApp";
 // import NoteApp from "./projects/16-note-app/NoteApp";
 // import RegForm from "./projects/15-register-form/RegForm";
 // import ContactFilterApp from "./projects/14-contact-filler-app/ContactFilterApp";
@@ -39,7 +40,8 @@ const App = () => {
       {/* <RegForm/> */}
       {/* <NoteApp/> */}
       {/* <ResponsiveNav /> */}
-      <TextAnimationApp/>
+      {/* <TextAnimationApp/> */}
+      <CompoundInterestRateApp/>
     </div>
   );
 };
