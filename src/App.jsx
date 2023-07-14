@@ -4,7 +4,8 @@ import React from "react";
 // import Randomize from "./projects/02-randomize-color/Randomize";
 // import ESignature from './projects/E-signature-01/ESignature'
 import "./App.css";
-import ResponsiveNav from "./projects/17-responsive-navbar/ResponsiveNav";
+// import ResponsiveNav from "./projects/17-responsive-navbar/ResponsiveNav";
+import TextAnimationApp from "./projects/18-text-animation/TextAnimationApp";
 // import NoteApp from "./projects/16-note-app/NoteApp";
 // import RegForm from "./projects/15-register-form/RegForm";
 // import ContactFilterApp from "./projects/14-contact-filler-app/ContactFilterApp";
@@ -37,7 +38,8 @@ const App = () => {
       {/* <ContactFilterApp /> */}
       {/* <RegForm/> */}
       {/* <NoteApp/> */}
-      <ResponsiveNav />
+      {/* <ResponsiveNav /> */}
+      <TextAnimationApp/>
     </div>
   );
 };
