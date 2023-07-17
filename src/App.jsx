@@ -4,7 +4,8 @@ import React from "react";
 // import Randomize from "./projects/02-randomize-color/Randomize";
 // import ESignature from './projects/E-signature-01/ESignature'
 import "./App.css";
-import TasksTrackerApp from "./projects/21-task-tracker/TasksTrackerApp";
+// import TasksTrackerApp from "./projects/21-task-tracker/TasksTrackerApp";
+import CardGame from "./projects/22-card-game/CardGame";
 // import CompoundInterestRateApp from "./projects/19-compound-interest-rate-calc/CompoundInterestRateApp";
 // import SpacePenguinApp from "./projects/20-space-penguin/SpacePenguinApp";
 // import ResponsiveNav from "./projects/17-responsive-navbar/ResponsiveNav";
@@ -45,7 +46,8 @@ const App = () => {
       {/* <TextAnimationApp/> */}
       {/* <CompoundInterestRateApp/> */}
       {/* <SpacePenguinApp/> */}
-      <TasksTrackerApp/>
+      {/* <TasksTrackerApp/> */}
+      <CardGame/>
     </div>
   );
 };
