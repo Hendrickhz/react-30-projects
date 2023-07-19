@@ -16,7 +16,7 @@ const FormGroup = ({
     <div className=" flex flex-col">
       <label htmlFor="">{label}</label>
       <input
-        className={`${className ?? "border mt-3 pl-3"}`}
+        className={`${className ?? "border mt-3 pl-3 text-black"}`}
         type={inputType}
         placeholder={placeholder}
         value={values}
