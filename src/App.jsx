@@ -4,7 +4,8 @@ import React from "react";
 // import Randomize from "./projects/02-randomize-color/Randomize";
 // import ESignature from './projects/E-signature-01/ESignature'
 import "./App.css";
-import ExpenseCalculator from "./projects/25-expense-calculator/ExpenseCalculator";
+// import ExpenseCalculator from "./projects/25-expense-calculator/ExpenseCalculator";
+import MortgageCalculator from "./projects/26-mortgage-calculator/MortgageCalculator";
 // import AnimatedLoginForm from "./projects/23-animated-login-form/AnimatedLoginForm";
 // import PhoneBookApp from "./projects/24-phone-book-app/PhoneBookApp";
 // import TasksTrackerApp from "./projects/21-task-tracker/TasksTrackerApp";
@@ -53,7 +54,8 @@ const App = () => {
       {/* <CardGame/> */}
       {/* <AnimatedLoginForm/> */}
       {/* <PhoneBookApp/> */}
-      <ExpenseCalculator/>
+      {/* <ExpenseCalculator/> */}
+      <MortgageCalculator/>
     </div>
   );
 };
