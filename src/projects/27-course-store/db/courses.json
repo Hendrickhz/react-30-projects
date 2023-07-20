@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "The Road to React",
+    "price": 19.99,
+    "img": "https://cdn.iconscout.com/icon/free/png-256/free-react-1-282599.png?f=webp"
+  },
+  {
+    "id": 2,
+    "title": "The Road to GraphQL",
+    "price": 14.99,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeKgi52GjmiV5sJAvflGYDNRIU9Fvg7dNCqC5Pp7UL&s"
+  },
+  {
+    "id": 3,
+    "title": "The Road to Javascript",
+    "price": 17.99,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/640px-JavaScript-logo.png"
+  },
+  {
+    "id": 4,
+    "title": "Advance Css and Sass",
+    "price": 29.99,
+    "img": "https://cdn.dribbble.com/users/66221/screenshots/1655604/media/e4330d62b9e74eaf987923c8f9cbf51d.png?compress=1&resize=400x300&vertical=center"
+  },
+  {
+    "id": 5,
+    "title": "Bootstrap5",
+    "price": 25.99,
+    "img": "https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-social-logo.png"
+  },
+  {
+    "id": 6,
+    "title": "Mastering Laravel",
+    "price": 30.99,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcdrGL6RnXZSYy-rGsMat_i6Aoszo-DGBw8V8Dcjz6tg&s"
+  },
+  {
+    "id": 7,
+    "title": "Git and Github",
+    "price": 9.99,
+    "img": "https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"
+  }
+]
