@@ -4,7 +4,8 @@ import React from "react";
 // import Randomize from "./projects/02-randomize-color/Randomize";
 // import ESignature from './projects/E-signature-01/ESignature'
 import "./App.css";
-import Store from "./projects/27-course-store/Store";
+import AuthApp from "./projects/28-authenticate-app/AuthApp";
+// import Store from "./projects/27-course-store/Store";
 // import ExpenseCalculator from "./projects/25-expense-calculator/ExpenseCalculator";
 // import MortgageCalculator from "./projects/26-mortgage-calculator/MortgageCalculator";
 // import AnimatedLoginForm from "./projects/23-animated-login-form/AnimatedLoginForm";
@@ -57,7 +58,8 @@ const App = () => {
       {/* <PhoneBookApp/> */}
       {/* <ExpenseCalculator/> */}
       {/* <MortgageCalculator/> */}
-      <Store/>
+      {/* <Store/> */}
+      <AuthApp/>
     </div>
   );
 };

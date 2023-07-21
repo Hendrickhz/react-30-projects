@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import Button from "./Button";
-const Alert = ({ text, color, showTime = 3000, disappear = true }) => {
+const Alert = ({ text, color, showTime = 3000, disappear = false }) => {
   const [showAlert, setShowAlert] = useState(true);
   const divRef = useRef();
   const removeAlert = () => {
