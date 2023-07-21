@@ -4,8 +4,9 @@ import React from "react";
 // import Randomize from "./projects/02-randomize-color/Randomize";
 // import ESignature from './projects/E-signature-01/ESignature'
 import "./App.css";
+import ImagePosts from "./projects/30-lazy-load-img/ImagePosts";
 // import AuthApp from "./projects/28-authenticate-app/AuthApp";
-import Synthesizer from "./projects/29-speech-synthesizer-app/Synthesizer";
+// import Synthesizer from "./projects/29-speech-synthesizer-app/Synthesizer";
 // import Store from "./projects/27-course-store/Store";
 // import ExpenseCalculator from "./projects/25-expense-calculator/ExpenseCalculator";
 // import MortgageCalculator from "./projects/26-mortgage-calculator/MortgageCalculator";
@@ -61,7 +62,8 @@ const App = () => {
       {/* <MortgageCalculator/> */}
       {/* <Store/> */}
       {/* <AuthApp/> */}
-      <Synthesizer />
+      {/* <Synthesizer /> */}
+      <ImagePosts/>
     </div>
   );
 };
